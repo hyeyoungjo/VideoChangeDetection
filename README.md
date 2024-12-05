@@ -5,6 +5,14 @@ From Khan Academy Style Blackboard or Whiteboard Sketch Animation, find the pen 
 ![REview Screen shot](demo.png)
 Yellow Dot is the digital pointer in the original video, and the red dot is the detected position.
 
+## Output CSV Example
+| Frame | Pen Position X | Pen Position Y |
+|-------|----------------|----------------|
+| 1     | 2              | 340            |
+| 2     | 2              | 340            |
+| 3     | 2              | 340            |
+
+
 ## How to Use
 1. Install Dependencies
 Ensure you have Python 3.13.1 installed. Install required libraries using pip:
@@ -28,3 +36,6 @@ The detected pointer positions are saved in a CSV file located in the pointer_lo
 ```
 pointer_locations/<file_name>.csv
 ```
+
+## Credit
+test video from the Khan Academy video Introduction to Artificial Intelligence : https://youtu.be/OmtkvAp2OL0?si=jkHkfswZAUI85OGd
